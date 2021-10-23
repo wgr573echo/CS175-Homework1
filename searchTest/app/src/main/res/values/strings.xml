@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">searchTest</string>
+    <string name="title">狗狗百态</string>
+    <string name="username">DogName</string>
+    <string name="full">Detail</string>
+    <string name="ico_backButton">Back Button</string>
+    <string name="img_pp">Profile Picture</string>
+    <string-array name="dogname">
+        <item>huahua</item>
+        <item>aa</item>
+        <item>rongog</item>
+        <item>xiwan</item>
+        <item>mimi</item>
+    </string-array>
+    <string-array name="doglocation">
+        <item>南京</item>
+        <item>常州</item>
+        <item>无锡</item>
+        <item>苏州</item>
+        <item>上海</item>
+    </string-array>
+    <string-array name="avatar">
+        <item>@drawable/dog1</item>
+        <item>@drawable/dog2</item>
+        <item>@drawable/dog3</item>
+        <item>@drawable/dog4</item>
+        <item>@drawable/dog5</item>
+    </string-array>
+    <string-array name="doggender">
+        <item>公</item>
+        <item>母</item>
+        <item>母</item>
+        <item>母</item>
+        <item>公</item>
+    </string-array>
+    <string-array name="dogdetail">
+        <item>很乖很可爱</item>
+        <item>找一个负责的主人</item>
+        <item>需要打针</item>
+        <item>可爱无敌</item>
+        <item>不要流浪了</item>
+    </string-array>
+
+
+
+</resources>

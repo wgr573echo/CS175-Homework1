@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailDogActivity">
+
+    <TextView
+        android:id="@+id/tv_item_repositoryText"
+        style="@style/TextSpec"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="28dp"
+        android:text="性别"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/img_item_photo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_username" />
+
+    <TextView
+        android:id="@+id/tv_item_followersText"
+        style="@style/TextSpec"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="80dp"
+        android:text="地点"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/img_item_photo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_username" />
+
+    <TextView
+        android:id="@+id/tv_item_followingText"
+        style="@style/TextSpec"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="140dp"
+        android:text="详细介绍"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/img_item_photo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_username" />
+
+    <TextView
+        android:id="@+id/tv_item_following"
+        style="@style/TextSpec"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="188dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/img_item_photo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_username" />
+
+    <TextView
+        android:id="@+id/tv_item_followers"
+        style="@style/TextSpec"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/img_item_photo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_username" />
+
+
+    <ImageView
+        android:id="@+id/img_item_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/img_pp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_item_repository"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_item_username"
+        style="@style/TextSpec.Names"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/img_item_photo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:text="狗狗简历" />
+
+    <ImageView
+        android:id="@+id/iv_back_button"
+        style="@style/TextSpec.ImgView"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/ico_backButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+        tools:ignore="RedundantDescriptionCheck" />
+
+    <TextView
+        android:id="@+id/tv_item_repository"
+        style="@style/TextSpec"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/img_item_photo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_username" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
